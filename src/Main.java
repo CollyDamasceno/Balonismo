@@ -1,39 +1,19 @@
 public class Main {
-    public static void main(String[] args){
-        //criar objetos
-        Pessoa Eduardo = new Pessoa();
-        Pessoa Fernanda= new Pessoa();
-        Pessoa Sara = new Pessoa();
-        Pessoa Marcos = new Pessoa();
+    public static void main
+            (String[] args){
 
-        //Declaração de objeto
+                // construindo balões
+                Balao b1 = new Balao();
 
-        Pessoa qualquer;
+                Balao b2 = new Balao(18, "roxo", "pequeno", 1.56, 15.65, "medio", 4 );
+                Balao b3 = new Balao(16, "amarelo", "pequeno", 1.31, 18.92, "medio", 12);
 
-        //Instaciação de objetos
-        qualquer = new Pessoa();
-        Pessoa adulta = new Pessoa();
+                // construindo pessoa
+                Pessoa p1 = new Pessoa("Rayane", "7438328", 795345, 55119433, 551193432, "rua. arco-iris");
+                Pessoa p2 = new Pessoa("Ane", "7653456", 439023, 55110349, 551190549, "rua. gramado");
 
-        qualquer.nome = "Eduardo";
-        //Definir  comportamento do Objeto
-         qualquer.voa();
-         qualquer.voa("Pessoa viaja");
-         //criar objeto piloto
-        Piloto MariaJulia = new Piloto();
-        //definir forma
-        qualquer.nome = "MariaJulia";
-        //definir comportamento
-        Piloto.pilotar();
-        Piloto.pilotar("Piloto pilota");
-        //criar objeto balao
-        Balao = new Balao();
-        //definir objeto
-        Balao = "123455";
-        //definir comportamento
-        Balao.voa();
-        Balao.voa("Voar");
-
-
+                // construindo piloto
+                Piloto pi1 = new Piloto("Ronaldo", "743829", 842394);
 
     }
 }
