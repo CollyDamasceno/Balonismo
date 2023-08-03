@@ -5,15 +5,15 @@ public class Main {
                 // construindo balões
                 Balao b1 = new Balao();
 
-                Balao b2 = new Balao(18, "roxo", "pequeno", 1.56, 15.65, "medio", 4 );
-                Balao b3 = new Balao(16, "amarelo", "pequeno", 1.31, 18.92, "medio", 12);
+                Balao b2 = new Balao(18, "roxo", "medio", 1.56, 15.56, "medio", 23 );
+                Balao b3 = new Balao(16, "amarelo", "pequeno", 1.31, 18.29, "medio", 8);
 
                 // construindo pessoa
-                Pessoa p1 = new Pessoa("Rayane", "7438328", 795345, 55119433, 551193432, "rua. arco-iris");
-                Pessoa p2 = new Pessoa("Ane", "7653456", 439023, 55110349, 551190549, "rua. gramado");
+                Pessoa p1 = new Pessoa("Nicolly", "86486893643", 633357, 987560987, 978655885, "rua. duque de caxias");
+                Pessoa p2 = new Pessoa("Mía", "9892748904", 738684, 976234541, 988005446, "rua. Santa monica");
 
                 // construindo piloto
-                Piloto pi1 = new Piloto("Ronaldo", "743829", 842394);
+                Piloto pi1 = new Piloto("Miguel", "364836288", 736234);
 
     }
 }
